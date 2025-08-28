@@ -9,14 +9,17 @@ size_t  my_strlen(char *s)
 
    return (p - s);
 }
-
+size_t my_strlenddd(char *s)
+ {
+    char *p = s;
+ }
 int main(void)
 {
    int i;
    char *s[] = 
    {
       "Git tutorials",
-      "Tutorials Point"
+      "Tutorials Poinx`t"
    };
 
    for (i = 0; i < 2; ++i)
